@@ -1,47 +1,39 @@
-baseURL = "http://example.org/"
+baseURL = "https://rakibulhasanmasum.github.io/elk-diary"
 languageCode = "en-us"
-title = "Ink-Free"
-theme = "ink-free"
-paginate = 5
+title = "ELK Stack"
+theme="archie"
+copyright = "© r_hasan"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-copyright = "© Copyright notice"
-# Demo only
-#ignoreErrors = ["error-missing-instagram-accesstoken"]
-
-[permalinks]
-  posts = "/:year/:month/:title"
+paginate=3 # articles per page
 
 [params]
-	subtitle = "Crisp, minimal, privacy-conscious personal [blog theme for Hugo](https://github.com/chollinger93/ink-free)"
+	mode="toggle" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
 
-	# Optional 64x64 avatar image.
-	#avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
+# Social Tags
 
-	featherIconsCDN = false
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/athul/archie"
 
-	# Site color - dark/light/auto
-	mode = "auto"
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/athulcajay/"
 
-	# Enable a table of contents
-	toc = true
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com/athul/"
 
-	# Max tags
-	maxTags = 7
+# Main menu Items
 
-	# Define words per minute to approximate reading time
-	wpm = 250
-
-	# Stupid footers :)
-	footers = [ 
-		"What Tiger King can teach us about x86 Assembly",
-		"10 Reasons why gcc SHOULD be re-written in JavaScript - You won't believe #8!"
-	]
-
-	# Github base url
-	github = "https://github.com/chollinger93/ink-free"
-
-
-# Nav.
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -61,33 +53,3 @@ weight = 3
 name = "Tags"
 url = "/tags"
 weight = 4
-
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/chollinger93/"
-
-[[params.social]]
-name = "RSS"
-icon = "rss"
-url = "/index.xml"
-
-[taxonomies]
-   tag = "tags"
-
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = true
-    style = "github"
-    tabWidth = 4
-
-  [markup.tableOfContents]
-    endLevel = 3
-    ordered = true
-    startLevel = 2 
