@@ -1,4 +1,4 @@
-#+title: Installation
+#+title: Elasticsearch installation
 #+author: r_hasan
 #+date: <2022-11-23 বুধ>
 #+filetags: installation

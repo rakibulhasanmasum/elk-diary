@@ -1,5 +1,5 @@
 +++
-title = "Installation"
+title = "Elasticsearch installation"
 author = ["r_hasan"]
 description = "installation processes on different operating systems, docker. connecting kibana after a successfull installation."
 date = 2022-11-23T00:00:00+06:00
