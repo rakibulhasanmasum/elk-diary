@@ -1,19 +1,13 @@
 +++
 title = "The WH questions you may ask!"
 author = ["r_hasan"]
-description = "beginning of the journey"
+description = "The QnA session between two of us, where we may have the opportunity to see a clear view of elk use cases."
 date = 2022-11-22
+tags = ["qna"]
 draft = false
 +++
 
-## Preface {#preface}
+## Why elasticsearch even exists? {#why-elasticsearch-even-exists}
 
-Hello dear all, adfadsfkldasjfjadsf
 
-adsfasdfasdf
-
--   afasdfasd
-
-asdfadsfd
-
--   asfd adf fd
+## Why I am suppossed to learn elasticsearch? {#why-i-am-suppossed-to-learn-elasticsearch}
